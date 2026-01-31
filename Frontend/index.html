@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Meal Explorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🍽️ Meal Explorer</h1>
+
+<div class="controls">
+
+    <input type="text" id="mealName" placeholder="Buscar por nombre">
+    <button onclick="searchByName()">Buscar</button>
+
+    <input type="text" id="mealLetter" maxlength="1" placeholder="Letra">
+    <button onclick="searchByLetter()">Buscar letra</button>
+
+    <select id="categorySelect" onchange="searchByCategory()">
+        <option value="">Categoria</option>
+    </select>
+
+    <select id="areaSelect" onchange="searchByArea()">
+        <option value="">Area</option>
+    </select>
+
+   
+
+</div>
+
+<div id="results"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
