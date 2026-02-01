@@ -20,7 +20,8 @@ def transform_meal(meal:dict):
         "instruction":meal["strInstructions"],
         "images":{
             "small": meal["strMealThumb"]+"/small",
-            "medium": meal["strMealThumb"]+"/medium"
+            "medium": meal["strMealThumb"]+"/medium",
+            "large": meal["strMealThumb"]+"/large"
         },
         "youtube": meal["strYoutube"],
         "ingredients": ingredients

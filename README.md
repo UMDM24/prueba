@@ -89,7 +89,7 @@ Simplemente abre el archivo `Frontend/index.html` en tu navegador favorito.
 | --- | --- | --- |
 | `GET` | `/meals/search?name={valor}` | Busca recetas por nombre. |
 | `GET` | `/meals/letter/{letra}` | Busca recetas que inicien con una letra. |
-| `GET` | `/filters/category/{cat}` | Filtra recetas por categoría. |
+| `GET` | `/filters/category/{category}` | Filtra recetas por categoría. |
 | `GET` | `/lists/categories/all` | Obtiene el listado completo de categorías. |
 | `GET` | `/lists/areas` | Obtiene el listado de países/áreas. |
 
